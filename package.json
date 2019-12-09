@@ -1,0 +1,17 @@
+{
+  "name": "assignment1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "wikipedia.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "into-stream": "^5.1.1",
+    "request": "^2.88.0",
+    "twitter": "^1.7.1"
+  }
+}
