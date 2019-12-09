@@ -8,6 +8,7 @@ app.use(express.json())
 
 // let x = api_call.movies('joker')
 // console.log(x)
+const port  = process.env.PORT || 4000
 
 app.get('/movie',(req,res)=>{
 
@@ -66,6 +67,6 @@ app.get('/parking',(req,res)=>{
 
 })
 
-app.listen(4000,()=>{
+app.listen(port,()=>{
     console.log('listening')
 })
